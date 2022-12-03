@@ -1,0 +1,70 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* color: white; */
+}
+
+.parallax div h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.parallax div p{
+    font-size: 30px;
+}
+
+.parallax.section-one{
+    background-image: url(../image/bg-one.jpg);
+}
+
+.parallax.section-three{
+    background-image: url(../image/bg-two.jpg);
+    height: 50vh;
+}
+
+.parallax.footer{
+    background-image: url(../image/bg-four.jpg);
+    background-position: center top 30%;
+    height: 10vh;
+}
+
+.content{
+    background-color: rgb(105, 113, 132);
+    color: white;
+    text-align: center;
+    padding: 100px 400px;
+}
+
+.content h1{
+    padding-bottom: 30px;
+}
+
+.content p{
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 35px;
+}
